@@ -84,6 +84,56 @@ This tool:
 * allows audio track selection by language,
 * is super-lightweight and ready to integrate into other scripts
 
+# 🧪 Testing
+
+This project includes automated tests for the Bash scripts.
+
+## Requirements
+
+Make sure you have:
+
+* bash ≥ 4
+* ffmpeg
+* bats-core (Bash Automated Testing System)
+
+Install bats-core on macOS:
+
+```bash
+brew install bats-core
+```
+
+On Debian/Ubuntu:
+```bash
+sudo apt install bats
+```
+
+## Running tests
+
+From the project root:
+
+```bash
+cd tests
+bats test_ffmpeg_video_slicer.bats
+```
+
+## Test structure
+```lua
+tests/
+├── test_ffmpeg_video_slicer.bats
+├── fixtures/
+│   └── [MP4 and MP3 sample files]
+└── tmp/
+````
+
+## What is tested
+
+Tests verify that:
+
+* video segments are generated correctly
+* output files exist
+* ffmpeg commands return exit code 0
+* invalid input is handled properly
+
 # 👍 Support & Contribute
 
 Want to help? Feel free to:
