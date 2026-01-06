@@ -87,7 +87,6 @@ This tool:
 * allows audio track selection by language,
 * is super-lightweight and ready to integrate into other scripts
 
-<<<<<<< HEAD
 # 🧪 Testing
 
 This project includes automated tests for the Bash scripts.
