@@ -1,5 +1,8 @@
 ![ffmpeg-video-slicer-demo](https://github.com/user-attachments/assets/58ebda53-39ba-4410-a278-b93c39c525c2)
 
+![Tests](https://github.com/grzegorzblaszczyk/ffmpeg-video-slicer/actions/workflows/tests.yml/badge.svg)
+
+
 # Description
 
 🎬 FFmpeg Video Slicer
@@ -84,6 +87,7 @@ This tool:
 * allows audio track selection by language,
 * is super-lightweight and ready to integrate into other scripts
 
+<<<<<<< HEAD
 # 🧪 Testing
 
 This project includes automated tests for the Bash scripts.
