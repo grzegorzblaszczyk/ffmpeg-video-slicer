@@ -1,3 +1,5 @@
+![ffmpeg-video-slicer-demo](https://github.com/user-attachments/assets/58ebda53-39ba-4410-a278-b93c39c525c2)
+
 # Description
 
 🎬 FFmpeg Video Slicer
